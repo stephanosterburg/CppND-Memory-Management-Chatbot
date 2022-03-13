@@ -177,7 +177,6 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename) {
 
   //// STUDENT CODE
   ////
-
   // identify root node
   GraphNode *rootNode = nullptr;
   for (auto it = std::begin(_nodes); it != std::end(_nodes); ++it) {
